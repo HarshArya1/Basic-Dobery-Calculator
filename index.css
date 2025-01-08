@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(48, 48, 48);
+}
+#root{
+    background-color: wheat;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+/* input{
+    font-size: 20px;
+    width: 250px;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}*/
+button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    padding: 5px;
+    width: 100px;
+    border-radius: 10px;
+}
+#a,#b,#c,#d,#e{
+    margin-bottom: 20px;
+}
+#pro{
+    margin-left: 15px;
+    width: 140px;
+}
+#age{
+    width: 180px;
+    margin-left: 15px;
+}
+#income{
+    width: 150px;
+    margin-left: 20px;
+}
+#res{
+    width: 140px;
+    margin-left: 20px;
+    
+}
+#yo{
+    margin-right: 20px;
+}
+#yes,#no{
+    margin-right: 5px;
+}
+#result{
+    font-size: 20px;
+    font-weight: 600;
+}

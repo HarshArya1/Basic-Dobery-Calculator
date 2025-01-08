@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <form id="dowryCalculatorForm">
+    <div id="root">
+        <h1>Dobery Calculator</h1>
+        <div id="a">
+            <label for="age">Enter Your Age</label>
+            <input type="number" id="age" placeholder="Enter Your age" min="18" max="32" required>
+        </div>
+        <div id="b">
+        <label for="pro">Select Your Profession</label>
+        <select name="Profession" id="pro">
+            <option value=""disabled selected>Your Profession</option>
+            <option value="Engineer">Engineer</option>
+            <option value="Doctor">Doctor</option>
+            <option value="Banking">Banking</option>
+            <option value="Government Job">Government Job</option>
+            <option value="Army">Army</option>
+            <option value="Politician">Politician</option>
+            <option value="Other">Other</option>
+        </select>
+    </div>
+    <div id="c">
+        <label for="income">Enter Your Income</label>
+        <input type="number" id="income" placeholder="income per months" min="1000" max="100000000" required>
+    </div>
+    <div id="d">
+        <label for="Residence">Enter Your Residence</label>
+        <select name="Residence" id="res">
+            <option value=""disabled selected>Select Residence</option>
+            <option value="urban">urban area</option>
+            <option value="rural">rural area</option>
+            <option value="foreign">foreign</option>
+        </select>
+    </div>
+    <div id="e">
+        <label for="Residence" id="yo">House Owned by you</label>
+        <input type="radio" name="Residence" id="yes" value="yes">
+        <label for="Residence">Yes</label>
+        <input type="radio" name="Residence" id="no" value="no">
+        <label for="Residence">No</label>
+    </div>
+    <button id="submit">Submit</button>
+    <div id="result">Result:-</div>
+    </div>
+</form>
+<script src="./index.js"></script>
+</body>
+</html>
